@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-color: #252525;
+  color: white;
+}
+
+body {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #383838;
+  color: white;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #16182e7c;
+}
+
+#textoExplicacion {
+  color: #add2ba;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #d0d0d0ea;
+}
+
+#nombresdsc {
+  color: #ffffff;
+}
+
+
+
+#info {
+  color: #7f7f7f;
+}
+
+.enlaces {
+  color: #ffffff;
+}
+
+#enlace {
+  color: aqua;
+}
