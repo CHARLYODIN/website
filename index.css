@@ -8,29 +8,22 @@ html {
 }
 
 body {
-  width: 1300px;
+  width: 1200px;
   margin: 0 auto;
-  background-color: #383838;
+  background-color: #252525;
   color: white;
   padding: 0 20px 20px 20px;
-  border: 5px solid #16182e7c;
+  border: 5px solid #8c8c8c10;
+
 }
 
 #textoExplicacion {
   color: #d0d0d0ea;
 }
 
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #c5d7e9ea;
-}
-
 #nombresdsc {
   color: #ffffff;
 }
-
-
 
 #info {
   color: #7f7f7f;
@@ -42,4 +35,78 @@ h1 {
 
 #enlace {
   color: aqua;
+}
+
+.finalFooter {
+  width: 100%;
+  background-color: #2b2b2b;
+}
+
+.finalFooter .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.finalFooter .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalFooter .grupo-1 .box figure img{
+  width: 250px;
+}
+
+.finalFooter .grupo-1 .box h2{
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.finalFooter .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.finalFooter .grupo-1 .redsocial a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-right: 10px;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.finalFooter .grupo-1 .redsocial a:hover{
+  color: aqua;
+}
+
+.finalFooter .grupo-2{
+  background-color: #0a1a2a5c;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.finalFooter .grupo-2 small{
+  font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+  .finalFooter .grupo-1{
+  width: 90%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  padding: 35px 0px;
+  }
 }
