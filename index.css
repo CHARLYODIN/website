@@ -2,19 +2,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
-html {
+body{
   background-color: #252525;
   color: white;
 }
 
-body {
-  width: 1200px;
+#TodaLaPagina {
+  width: 100%;
+  max-width: 1300px;
+  min-width: auto;
   margin: 0 auto;
-  background-color: #252525;
   color: white;
   padding: 0 20px 20px 20px;
-  border: 5px solid #8c8c8c10;
-
+  border: 5px solid #252525;
 }
 
 #textoExplicacion {
@@ -33,6 +33,10 @@ body {
   color: #ffffff;
 }
 
+.completo {
+  color: rgb(131, 168, 195);
+}
+
 #enlace {
   color: aqua;
 }
@@ -44,7 +48,7 @@ body {
 
 .finalFooter .grupo-1{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
