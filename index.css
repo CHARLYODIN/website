@@ -5,7 +5,7 @@
 body{
   background-color: #252525;
   color: #ffffff;
-  padding: 90px 20px 0;
+  padding: 90px 0;
 }
 html{
   scroll-behavior: smooth;
@@ -134,7 +134,7 @@ html{
 }
 
 .finalFooter .grupo-1 .box figure img{
-  width: 250px;
+  width: 50px;
 }
 
 .finalFooter .grupo-1 .box h2{
