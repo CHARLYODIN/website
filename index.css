@@ -18,13 +18,12 @@ html{
   min-width: auto;
   margin: 0 auto;
   color: white;
-  padding: 0 10px 0px 10px;
   border: 5px solid #252525;
 }
 
 .header{
   background-color: #2e4664;
-  height: 80px;
+  height: 100px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -85,6 +84,23 @@ html{
   cursor: pointer;
 
  display: none;
+}
+
+.encabezado-img{
+  background-image: url(https://cdn.discordapp.com/attachments/989554678050222160/995114600779481119/opia.jpeg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.encabezado-img p{
+  font-size: 20px;
+  padding: 20px 0;
 }
 
 #textoExplicacion {
@@ -182,7 +198,7 @@ html{
   }
 
  .header{
-  height:60px;
+  height:75px;
  }
 
  .logo{
