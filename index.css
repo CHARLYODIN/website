@@ -103,6 +103,52 @@ html{
   padding: 20px 0;
 }
 
+.carouseL__contenedor{
+  position: absolute;
+  align-items: center;
+}
+
+.carousel__elemento{
+  text-align: center;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 20px;
+  text-align: center;
+  background: none;
+  color: #fff;
+  opacity: 0%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+  opacity: 100%;
+}
+
+.carousel__indicador .glider-dot{
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: #fff;
+  opacity: .2;
+  border-radius: 0;
+}
+
+.carousel__indicador .glider-dot:hover{
+  opacity: .5;
+}
+
+.carousel__indicador .glider-dot.active{
+  opacity: 1;
+}
+
 #textoExplicacion {
   color: #d0d0d0f2;
 }
@@ -151,7 +197,7 @@ html{
 }
 
 .finalFooter .grupo-1 .box figure img{
-  width: 50px;
+  width: 65px;
 }
 
 .finalFooter .grupo-1 .box h2{
@@ -192,9 +238,9 @@ html{
 }
 
 /*moviles*/
-@media (max-width: 950px){
+@media screen and (max-width: 950px){
   body {
-    padding-top: 70px;
+    padding: 70px 0 0 0;
   }
 
  .header{
