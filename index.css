@@ -103,6 +103,10 @@ html{
   padding: 20px 0;
 }
 
+.miDiscord{
+  align-items: center;
+}
+
 .carouseL__contenedor{
   position: absolute;
   align-items: center;
@@ -291,7 +295,6 @@ html{
  .nav-toggle:focus:not(:focus-visible) {
   outline: none;
 }
-
 
  .finalFooter .grupo-1{
   width: 90%;
