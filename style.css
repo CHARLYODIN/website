@@ -1,0 +1,585 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo nav-link {
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: black;
+  padding: 90px 0 0 0;
+
+  background-color: #ffffff;
+}
+
+.header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 35px;
+}
+
+h3,
+h2,
+h5,
+h4,
+.grupo-2 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.Cuadro h4{
+  font-family: 'Roboto', sans-serif;
+  color: #d4d9df;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.PaginaCompleta{
+  width: 100%;
+  min-width: auto;
+  margin: 0 auto;
+  border: 5px black;
+}
+
+.header {
+  background-color: #1213169c;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 10px 40px;
+  line-height: 80px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 992;
+  margin: 0 auto;
+}
+
+.nav-link{
+  color: #eaebed;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item{
+  font-size: 16px;
+  margin: 0 10px;
+  padding-top: 10px;
+  line-height: 85px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link{
+  padding: 8px 13px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+  background-color: #253049c2;
+  transition: 0.4s;
+}
+
+.nav-toggle{
+  color: #eaebed;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+  display: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a[name] {
+  scroll-margin-top: 100px;
+}
+
+.encabezado-img{
+  font-size: 25px;
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1069696330194227281/573755.jpg);
+  height: 752px;
+  width: 100%;
+  margin-top: -100px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #eaebed;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+.Titulo{
+  font-size: 42px;
+  text-shadow: 1px 1px 1px #00000068;
+  text-shadow: 1px 2px 2px #00000068;
+  text-shadow: 1px 3px 3px #00000068;
+  text-shadow: 1px 4px 4px #00000068;
+  text-shadow: 1px 5px 5px #00000068;
+  text-shadow: 1px 6px 6px #00000068;
+  text-shadow: 1px 7px 7px #00000068;
+}
+
+.Titulo:hover{
+  transition-duration: .8s;
+  text-shadow: 5px 5px 20px black;
+  transform: translateY(-7%);
+}
+
+h3,
+h4{
+  text-shadow: 1px 1px 1px #00000068;
+  text-shadow: 1px 2px 2px #00000068;
+  text-shadow: 1px 3px 3px #00000068;
+  text-shadow: 1px 4px 4px #00000068;
+  text-shadow: 1px 5px 5px #00000068;
+  text-shadow: 1px 6px 6px #00000068;
+  text-shadow: 1px 7px 7px #00000068;
+}
+
+h3:hover{
+  transition-duration: .8s;
+  text-shadow: 5px 5px 20px black;
+  transform: translateY(-7%);
+}
+
+.TituloProgramacion,
+.ApartadoProgramacion p{
+  color: #fff;
+}
+
+.CuadroProgramacion{
+  padding: 4px 10px;
+  margin: 10px;
+  width: 650px;
+  height: 120px;
+  background-color: #06090ef9;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
+  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
+  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
+  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
+  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+}
+
+.CajasProgramacion,
+.Lenguajes,
+.Proyectos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Lenguajes,
+.Proyectos{
+  padding: 8px 10px;
+  margin: 2px;
+  width: 100%;
+}
+.langPro{
+  margin: 0px 58px;
+}
+.langPro img:hover{
+  transition: 0.4s;
+  transform: translateY(-8%);
+}
+
+.Proyecto{
+  margin: 0px 20px;
+}
+.Proyecto p:hover{
+  transition: 0.4s;
+  transform: translateY(-8%);
+}
+.Proyectos a{
+  text-decoration: none;
+}
+
+.Cuadros{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cuadro{
+  padding: 2px 1px;
+  margin: 50px;
+  width: 165px;
+  background-color: #161617;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
+  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
+  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
+  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
+  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+  text-align: center;
+  align-items: center;
+}
+
+.miDiscord{
+  align-items: center;
+}
+
+#nombresdsc{
+  color: #141a26;
+  font-size: 16px;
+}
+
+.carouseL__contenedor{
+  position: absolute;
+  align-items: center;
+}
+
+.carousel__elemento{
+  text-align: center;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 20px;
+  text-align: center;
+  background: none;
+  color: #fff;
+  opacity: 0%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+  opacity: 100%;
+}
+
+.carousel__indicador .glider-dot{
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: black;
+  opacity: .2;
+  border-radius: 0;
+}
+
+.carousel__indicador .glider-dot:hover{
+  opacity: .5;
+}
+
+.carousel__indicador .glider-dot.active{
+  opacity: 1;
+}
+
+.FotoPresentacion{
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
+  height: 460px;
+  width: 520px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 420px;
+}
+.FotoPresentacion p{
+  color: #ffffff;
+}
+
+.Cuadro1AboutMe{
+  padding: 10px 10px;
+  margin: 2px;
+  width: 100%;
+  height: 210px;
+  background-color: #06090ef9;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
+  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
+  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
+  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
+  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+}
+
+.CajaAboutMe{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutMe p{
+  color: #eaebedda;
+}
+.AboutMe h3{
+  color: #ffffffed;
+  text-align: center;
+}
+
+.CuadroAboutMe{
+  margin: 18px 60px;
+  border-radius: 14px;
+  align-items: center;
+}
+
+.finalFooter{
+  width: 100%;
+  background-color: #141a26;
+  color: #eaebed;
+}
+
+.finalFooter h2{
+  color: #ffffff;
+}
+
+.finalFooter p{
+  color: #ffffffe4;
+}
+
+.finalFooter .grupo-1{
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 40px 0 0 0;
+  padding-left: 10px;
+}
+
+.finalFooter .grupo-1 .cajafooter figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalFooter .grupo-1 .cajafooter figure img{
+  width: 65px;
+}
+
+.finalFooter .grupo-1 .cajafooter h2{
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.finalFooter .grupo-1 .cajafooter p{
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.finalFooter .grupo-1 .box .redsocial a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.IconoRed img{
+  margin-top: 10px;
+}
+.IconoRed img:hover{
+  transition: 0.4s;
+  transform: translateY(-8%);
+}
+
+.finalFooter .grupo-2{
+  background-color: #06090e63;
+  padding: 15px 10px;
+  text-align: center;
+  color: #ffffffda;
+}
+
+.finalFooter .grupo-2 small{
+  font-size: 15px;
+}
+
+/*moviles*/
+@media screen and (max-width: 950px){
+  body {
+    padding: 60px 0 0 0;
+  }
+
+ .header{
+  height:65px;
+ }
+
+ .logo{
+  font-size: 25px;
+  padding: 3px 0 10px 20px;
+  line-height: 60px;
+ }
+
+ .nav-menu{
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #161617;
+  position: fixed;
+  left: 0;
+  top: 63px;
+  width: 100%;
+  padding: 20px 0;
+
+  height: calc(100% - 60px);
+  overflow-y: auto;
+
+  left: 100%;
+  transition: left 0.5s;
+ }
+
+ .nav-menu-item{
+  line-height: 60px;
+ }
+
+ .nav-menu-link:hover{
+  background: none;
+  color: #90c2ff;
+ }
+
+ .nav-toggle{
+  display: block;
+ }
+
+ .nav-menu_visible{
+  left: 0;
+ }
+ 
+ .nav-toggle:focus:not(:focus-visible) {
+  outline: none;
+ }
+
+ .nav-menu_visible{
+  left: 0;
+ }
+ 
+ .nav-toggle:focus:not(:focus-visible) {
+  outline: none;
+ }
+
+ a[name] {
+  scroll-margin-top: 75px;
+}
+
+ .encabezado-img{
+  font-size: 20px;
+  height: 380px;
+  width: 100%;
+  margin-top: -60px;
+  letter-spacing: 3px;
+}
+
+.CuadroProgramacion{
+  padding: 2px 8px;
+  height: 120px;
+}
+.langPro{
+  margin: 0px 24px;
+}
+.Proyecto{
+  margin: 0px 10px 4px 10px;
+}
+
+.Cuadros{
+  align-items: center;
+}
+
+ .Cuadro{
+  padding-top: 6px;
+  margin: 16px;
+  width: 154px;
+  height: 34px;
+  border-radius: 6px;
+ }
+
+ .caja img{
+  height: 140px;
+  width: 140px;
+}
+
+ .caja{
+  margin: 8px;
+  max-width: 140px;
+}
+
+.FotoPresentacion{
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/989554678050222160/1075219596077965363/Screenshot_20230214-1856222.png);
+  height: 260px;
+  width: 520px;
+  background-size: cover;
+  display: flex;
+  padding-top: 240px;
+}
+
+.Cuadro1AboutMe{
+  padding: 10px 10px;
+  margin: 2px;
+  width: 100%;
+  height: 230px;
+}
+
+.MiPersona{
+  height: 430px;
+}
+
+.CuadroAboutMe{
+  margin: 10px 50px;
+}
+
+ .finalFooter .grupo-1{
+  width: 90%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  padding: 30px 0px;
+ }
+}
