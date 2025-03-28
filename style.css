@@ -132,7 +132,6 @@ a[name] {
 .encabezado-img{
   font-size: 25px;
   background-image: url(./img/fondo.jpg);
-  /*background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://www.vecteezy.com/photo/11871914-virtual-reality-animation-glowing-luminance-laser-background-abstract-technology-horizontal-line-purple-light-glow-galaxy-geometric-internet-80s-style-wallpaper);*/
   height: 752px;
   width: 100%;
   margin-top: -100px;
@@ -259,6 +258,37 @@ h3:hover{
   box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
   text-align: center;
   align-items: center;
+}
+
+.CajaWeb{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.CajaWeb h5, p, h2{
+  color: #fff;
+}
+
+.CuadroPrecio {
+  padding: 2px 1px;
+  margin: 50px;
+  width: 180px;
+  background-color: #161617;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
+  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
+  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
+  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
+  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+  text-align: center;
+  align-items: center;
+}
+
+.CuadroPrecio a{
+  text-decoration: none;
 }
 
 .miDiscord{
